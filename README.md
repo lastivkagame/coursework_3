@@ -45,6 +45,3 @@ Right Panel:
  
  -Third if you want start watch by your save  moment:-> save moment click on time you(you can read comment to this moment in save comments expander)
  
-
-About some questions:
--> if you download it and want start successfully delete folder 'browser' and unzip the acrhive 'browser'
