@@ -14,6 +14,7 @@ About some questions:
 4.-> if you download it and want start successfully delete folder 'browser' and unzip the acrhive 'browser'
 
 
+
 simle description:
 
 ->(Image Fox is button too (its can minimize, maximaze, or resize window)
