@@ -1,9 +1,13 @@
 # coursework_3
 About: program for work with media
 
+
 About some questions:
+
 1.I tried to comment on my code, I hopefully so a a little clearer for you
+
 2.I apologize for my English, I’m working on it)))
+
 3.Exist one interesting moment in my code.When I try add browser Visual Studio was very dumb(I don’t know why it) because of it so I solve it in other way. At first, I took this part with the browser to another solution and it solution begin work quickly. Next I create good exe file by browse and next I simple start it in another process. (Sorry for it but now I don’t have more time to fix this
 (Also I will just add a code file about part of the browser)
 
