@@ -11,6 +11,8 @@ About some questions:
 3.Exist one interesting moment in my code.When I try add browser Visual Studio was very dumb(I don’t know why it) because of it so I solve it in other way. At first, I took this part with the browser to another solution and it solution begin work quickly. Next I create good exe file by browse and next I simple start it in another process. (Sorry for it but now I don’t have more time to fix this
 (Also I will just add a code file about part of the browser)
 
+4.-> if you download it and want start successfully delete folder 'browser' and unzip the acrhive 'browser'
+
 
 simle description:
 
@@ -45,4 +47,4 @@ Right Panel:
  
 
 About some questions:
--> if you download it and want start successfully delete folder 'browser' and unzip the acrhive 'browse'
+-> if you download it and want start successfully delete folder 'browser' and unzip the acrhive 'browser'
