@@ -1,0 +1,57 @@
+﻿<Window x:Name="FoxPlayerLoader" x:Class="LoadStartWindow.LoadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       xmlns:local="clr-namespace:Coursework_WPF"
+        mc:Ignorable="d"
+        Title="FoxLoader" Height="450" Width="800" WindowStyle="None" MouseDown="FoxPlayerLoader_MouseDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64*"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="255*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform Angle="-90" CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="#FFF3DD00" Offset="1"/>
+                <GradientStop Color="#FFA44131"/>
+                <GradientStop Color="#FFE87400" Offset="0.443"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Stretch="UniformToFill" Grid.RowSpan="3" Source="images/snow2.png"/>
+        <!--#region up logo firm presentation-->
+        <Image Grid.Row="1" HorizontalAlignment="Left" Margin="50,0,0,17" Width="145" Source="images/logo.png"/>
+        <TextBlock Grid.Row="0"  Padding="5" HorizontalAlignment="Left" Margin="40,0,0,0" FontSize="35" FontFamily="Cooper" VerticalAlignment="Center" Text="GOLDENFOX" Height="40" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Yellow" Offset="1"/>
+                    <GradientStop Color="#FFC9C9C9" Offset="0.216"/>
+                    <GradientStop Color="#FFE0E0E0" Offset="0.051"/>
+                    <GradientStop Color="#FFFF7500" Offset="0.388"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <TextBlock Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,0,0,0" FontSize="35" FontFamily="Cooper"  Text="PLAYER" Height="40" Width="237">
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="Yellow" Offset="1"/>
+                    <GradientStop Color="#FFFFFCEF" Offset="0.238"/>
+                    <GradientStop Color="#FFBBBBBB" Offset="0.051"/>
+                    <GradientStop Color="#FFFF7500" Offset="0.399"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBlock>
+        <!--#endregion-->
+        <Image x:Name="btnstart" Grid.Row="1" HorizontalAlignment="Center"  Width="209" Margin="303,35,280,107" Grid.RowSpan="2" Source="images/start4.png" MouseDown="Btnstart_MouseDown_1"/>
+        <Image x:Name="btnExit" Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,-10,0" Height="40" Source="Images/exit3.png" MouseDown="BtnExit_MouseDown"/>
+    </Grid>
+</Window>
